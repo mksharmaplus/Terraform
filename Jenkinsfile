@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('git checkout code') {
             steps {
-                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/pankaj11524/terraform-repo.git']])
+                checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/mksharmaplus/Terraform.git']])
             }
         }
         
